@@ -1,4 +1,10 @@
 import * as C from './styles'
+import { Item } from '../../types/Item';
+
+type Props =  {
+    list: Item[];
+
+}
 
 export const TableArea = () => {
     return(
