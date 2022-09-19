@@ -11,8 +11,6 @@ box-shadow: 0px 0px 5px #CCC;
 border-radius: 10px;
 margin-top: 15px;
 
-
-
 `
 // Passando props para componentes estilizados
 export const TableHeadColumn = styled.th<{ width?: number}>`

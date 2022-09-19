@@ -1,5 +1,6 @@
 import * as C from './styles'
-import { Item } from '../../types/Item'
+import { Item } from '../../types/Item';
+
 
 type Props = {
     item: Item
@@ -12,7 +13,6 @@ export const TableItem = ({ item }: Props) => {
             <C.TableColumn>{item.category}</C.TableColumn>
             <C.TableColumn>{item.title}</C.TableColumn>
             <C.TableColumn>R$ {item.value}</C.TableColumn>
-
         </C.TableLine>
 
     )
