@@ -6,7 +6,7 @@ export const getCurrentMonth = () => {
 
 }
 
-export const FilterListByMonth = (list : Item[], date: string): Item[] => {
+export const filterListByMonth = (list : Item[], date: string): Item[] => {
     let newList: Item[] = [];
     let [year, month] = date.split('-')
 
