@@ -7,6 +7,7 @@ import { categories } from './data/categories'
 import { items } from './data/items'
 import { filterListByMonth, getCurrentMonth } from './helpers/DateFilter'
 import { TableArea } from './components/TableArea/index'
+import { InfoArea } from './components/InfoArea'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         <C.HeaderText>Sistema de Controle Financeiro</C.HeaderText>
       </C.Header>
       <C.Body>
+
+        <InfoArea/>
 
 
 
