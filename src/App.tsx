@@ -28,7 +28,7 @@ function App() {
       </C.Header>
       <C.Body>
 
-        <InfoArea/>
+        <InfoArea currentMonth={currentMonth}/>
 
 
 
